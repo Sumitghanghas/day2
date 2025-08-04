@@ -21,7 +21,7 @@ int main()
 
     char line[1000];
     int occurrence = 0;
-    int lineNumber = 1;
+    int lintcount = 1;
 
     while (file.getline(line, 1000))
     {
@@ -44,7 +44,7 @@ int main()
         }
 
         delete[] tokens;
-        lineNumber++;
+        lintcount++;
     }
 
     file.close();
